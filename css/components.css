@@ -1,0 +1,16 @@
+/* EcoMarket · componentes que se reutilizan en las vistas */
+.button { display: inline-flex; min-height: 3rem; align-items: center; justify-content: center; gap: 0.6rem; padding: 0.7rem 1.2rem; border: 1px solid transparent; border-radius: var(--radius-small); font-size: 0.88rem; font-weight: 650; transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, transform 180ms ease; }
+.button--primary { background: var(--color-primary-dark); color: white; }
+.button--primary:hover { transform: translateY(-2px); background: var(--color-forest); }
+.button--outline { border-color: var(--color-forest); color: var(--color-forest); }
+.button--outline:hover { background: var(--color-forest); color: white; }
+.button svg { width: 1.1rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.6; }
+
+.card { overflow: hidden; border: 1px solid var(--color-line); border-radius: var(--radius-medium); background: var(--color-paper); transition: transform 200ms ease, box-shadow 200ms ease; }
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-soft); }
+
+.field { display: grid; gap: 0.35rem; }
+.field label { color: var(--color-forest); font-size: 0.8rem; font-weight: 650; }
+.field input, .field textarea, .field select { width: 100%; min-height: 2.8rem; padding: 0.65rem 0.75rem; border: 1px solid var(--color-line); border-radius: var(--radius-small); background: var(--color-paper); color: var(--color-ink); }
+.field textarea { min-height: 7rem; resize: vertical; }
+.field input:focus, .field textarea:focus, .field select:focus { border-color: var(--color-primary-dark); outline: 0; box-shadow: 0 0 0 3px rgb(39 174 96 / 15%); }

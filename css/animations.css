@@ -1,0 +1,4 @@
+/* EcoMarket · transiciones suaves, sin bloquear controles ni contenido */
+@keyframes appear { from { opacity: 0; transform: translateY(0.4rem); } to { opacity: 1; transform: translateY(0); } }
+
+.button, .card, .site-nav__link, .site-footer__column a { transition-timing-function: ease; }
