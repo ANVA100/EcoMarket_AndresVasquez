@@ -1,20 +1,23 @@
-/* EcoMarket · tokens, reinicio y estilos globales */
+/* EcoMarket · paleta cielo y mandarina, reinicio y estilos globales */
 :root {
   color-scheme: light;
-  --color-primary: #2ecc71;
-  --color-primary-dark: #27ae60;
-  --color-brand: #1677e8;
-  --color-brand-dark: #0c5fc4;
-  --color-forest: #24543b;
-  --color-leaf: #6c9567;
-  --color-sage: #dce8d5;
-  --color-beige: #f5f5dc;
-  --color-background: #f7f9f8;
+  --color-primary: #ffad62;
+  --color-primary-dark: #ee8b40;
+  --color-brand: #146f96;
+  --color-brand-dark: #105675;
+  --color-forest: #204b55;
+  --color-leaf: #67a27f;
+  --color-sage: #e1f0f4;
+  --color-beige: #fff1e2;
+  --color-background: #f7fafb;
   --color-paper: #ffffff;
-  --color-earth: #8b674f;
-  --color-ink: #182338;
-  --color-muted: #65748a;
-  --color-line: #dbe2d7;
+  --color-earth: #b85e32;
+  --color-ink: #1d2b39;
+  --color-muted: #607487;
+  --color-line: #d9e5e9;
+  --color-sky: #e8f5fa;
+  --color-apricot: #fff0df;
+  --color-orange: #a84b1c;
   --color-error: #b33f35;
   --color-success: #33754a;
   --font-body: "Segoe UI", Arial, sans-serif;
@@ -23,7 +26,7 @@
   --radius-medium: 0.9rem;
   --radius-large: 1.5rem;
   --content-width: 74rem;
-  --shadow-soft: 0 0.8rem 2.2rem rgb(36 84 59 / 10%);
+  --shadow-soft: 0 0.8rem 2.2rem rgb(29 83 105 / 11%);
 }
 
 *,
@@ -40,7 +43,7 @@ button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
 h1, h2, h3, h4, p, figure { margin: 0; }
 ul, ol { margin: 0; padding: 0; }
 
-:focus-visible { outline: 3px solid #9a632f; outline-offset: 4px; }
+:focus-visible { outline: 3px solid #a55220; outline-offset: 4px; }
 ::selection { background: var(--color-sage); color: var(--color-forest); }
 
 .page-wrap { width: min(var(--content-width), calc(100% - 2rem)); margin-inline: auto; }
