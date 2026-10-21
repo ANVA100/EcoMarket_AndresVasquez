@@ -308,9 +308,14 @@
 .contact-form .field input, .contact-form .field select { min-height: 3rem; padding-inline: 0.85rem; border-color: var(--color-line); border-radius: 0.65rem; }
 .contact-form .field textarea { min-height: 9rem; padding: 0.8rem 0.85rem; border-color: var(--color-line); border-radius: 0.65rem; line-height: 1.55; }
 .contact-form .field input::placeholder, .contact-form .field textarea::placeholder { color: var(--color-muted); opacity: 1; }
+.contact-form .field :is(input, select, textarea):required:valid { border-color: var(--color-success); box-shadow: 0 0 0 2px rgb(51 117 74 / 10%); }
+.contact-form .field :is(input, textarea):required:invalid:not(:placeholder-shown), .contact-form .field :is(input, textarea):required:invalid:focus, .contact-form .field select:required:invalid:focus { border-color: var(--color-error); box-shadow: 0 0 0 3px rgb(179 63 53 / 12%); }
+.contact-form .field :is(input, select, textarea):required:user-invalid { border-color: var(--color-error); box-shadow: 0 0 0 3px rgb(179 63 53 / 12%); }
 .contact-form .field small { color: var(--color-muted); font-size: 0.68rem; }
 .contact-consent { display: grid; grid-template-columns: 1.15rem minmax(0, 1fr); align-items: start; gap: 0.6rem; }
 .contact-consent input { width: 1.1rem; height: 1.1rem; margin: 0.14rem 0 0; accent-color: var(--color-brand); }
+.contact-consent input:required:valid { accent-color: var(--color-success); }
+.contact-consent input:required:user-invalid { accent-color: var(--color-error); }
 .contact-consent label { color: var(--color-muted); font-size: 0.74rem; line-height: 1.5; cursor: pointer; }
 .contact-consent__note { margin-top: -0.7rem; padding-left: 1.75rem; color: var(--color-muted); font-size: 0.68rem; }
 .contact-consent__note a, .contact-form__note a { color: var(--color-brand-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 0.18em; }
