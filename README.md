@@ -11,6 +11,16 @@ EcoMarket es una tienda demostrativa de productos sostenibles. El proyecto prese
 
 Con Live Server, las rutas locales normalmente son `http://127.0.0.1:5500/` para el inicio y `http://127.0.0.1:5500/views/productos.html` para el catálogo. El puerto puede cambiar si ya está ocupado.
 
+## Publicación
+
+URL pública del proyecto:
+
+[https://anva100.github.io/EcoMarket_AndresVasquez/](https://anva100.github.io/EcoMarket_AndresVasquez/)
+
+Para que GitHub Pages muestre las cuatro vistas completas, configura la rama `feature/documentacion` y la carpeta `/(root)` en **Settings → Pages**.
+
+El catálogo incluye filtros y paginación visual implementados con CSS. La barra de búsqueda es una demostración visual; para que filtre texto se necesitaría JavaScript, que no se utiliza en esta entrega.
+
 ## Tecnologías
 
 - HTML5 semántico y accesible.
@@ -27,7 +37,7 @@ No se requiere instalar dependencias ni compilar el proyecto.
 - `views/sobre-nosotros.html`: historia, misión y principios de EcoMarket.
 - `views/contacto.html`: formulario y datos de soporte demostrativos.
 
-Las funciones de compra y contacto son demostrativas; el proyecto no procesa pagos ni envía mensajes a un servidor.
+Las funciones de compra y contacto son demostrativas; el proyecto no procesa pagos ni envía mensajes a un servidor. Las opiniones y retratos de la página Nosotros también son ficticios y se usan solo como muestra.
 
 ## Capturas de pantalla
 
@@ -62,7 +72,9 @@ EcoMarket_AndresVasquez/
 │   └── main.css
 ├── img/
 │   ├── hero/
+│   ├── icons/
 │   ├── products/
+│   ├── reviews/
 │   └── screenshots/
 ├── views/
 │   ├── contacto.html
