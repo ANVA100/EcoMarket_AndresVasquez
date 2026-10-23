@@ -21,6 +21,8 @@ Para que GitHub Pages muestre las cuatro vistas completas, configura la rama `fe
 
 El catálogo incluye filtros y paginación visual implementados con CSS. La barra de búsqueda es una demostración visual; para que filtre texto se necesitaría JavaScript, que no se utiliza en esta entrega.
 
+Cada nuevo commit en feature/documentacion vuelve a publicar el sitio automáticamente.
+
 ## Tecnologías
 
 - HTML5 semántico y accesible.
